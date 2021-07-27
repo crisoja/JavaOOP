@@ -1,5 +1,6 @@
 package ChickenExercise;
 
-public interface ChickenComputation {
+public interface ChickenComputationInterface {
+
       void  computeHowToBuyChicken();
 }

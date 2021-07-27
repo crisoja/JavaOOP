@@ -1,9 +1,6 @@
 package ChickenExercise;
 
-public class ChickenBuying extends Chicken implements ChickenComputation{
-    double cockPrice = 5.0;
-    double henPrice = 3.0;
-    double chickPrice = 1.0;
+public class ChickenBuyingWay extends Chicken implements ChickenComputationInterface {
     int cock,hen,chick;
 
     @Override

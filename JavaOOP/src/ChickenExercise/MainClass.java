@@ -3,7 +3,7 @@ package ChickenExercise;
 public class MainClass {
 
     public static void main(String[] args) {
-        ChickenComputation chick = new ChickenBuying();
+        ChickenComputationInterface chick = new ChickenBuyingWay();
         chick.computeHowToBuyChicken();
     }
 }
